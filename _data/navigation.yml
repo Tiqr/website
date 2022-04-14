@@ -1,0 +1,20 @@
+- title: Welcome
+  url: /index
+
+- title: Technical
+  url: /technical
+
+- title: Demo
+  url: /demo
+
+- title: Development
+  url: /development
+
+- title: Documentation
+  url: /documentation
+
+- title: Privacy
+  url: /privacy
+
+- title: About
+  url: /about
