@@ -1,4 +1,4 @@
-## About tiqr
+# About tiqr
 
 The ideas behind tiqr were born one Friday afternoon in September 2010. A prototype was developed funded by the SURFnet/Kennisnet Innovation Project and was demonstrated at a show in December 2010. Because of the enthusiasm among the visitors to this event, we decided to further develop tiqr and to release it in open source. tiqr is intended as a plug-in authentication method to be used in federated and non-federated web applications. It comes with absolutely no warranty or support and we are still working very hard on it. Nevertheless, it will work most of the time and we encourage you to try it and send us feedback!
 
@@ -17,3 +17,6 @@ Egeniq developed the iPhone and Android versions of tiqr as well as the server-s
 ![Stroomt](./img/stroomt.png)
 
 Stroomt delivers the right information to the right people, at the right time and in the right way. They focus on making information accessible, findable and all this in a user-friendly way. Stroomt specialises in optimising the User Experience of applications and worked on the interaction design of tiqr.
+
+## Contact
+If you have any questions or suggestions, please open an issue at the relevant github repo, or [send us an email](mailto:tiqr@surfnet.nl).
