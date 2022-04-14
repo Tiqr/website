@@ -26,4 +26,4 @@ You now launch the tiqr App on your smart phone and follow the simple steps show
 4. And you’re logged in!
 
 ### Want to try it out yourself?
-Surf to [our demo page](https://tiqr.org/demo/) and try tiqr live!
+Surf to [our demo page](./demo.md) and try tiqr live!
