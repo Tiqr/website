@@ -1,5 +1,5 @@
 # Online demo
-We have an online demo available, which you can use to try tiqr on your smart phone. If you don’t have the tiqr application installed yet, please go to the [download page](./download.md).
+We have an online demo available, which you can use to try tiqr on your smart phone. If you don’t have the tiqr application installed yet, please go to the [download page](/download).
 
 ## Demo explanation
 

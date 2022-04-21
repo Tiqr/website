@@ -9,5 +9,5 @@ There are currently three server side integration guides available:
 - [Integration of tiqr in SimpleSAMLphp](./tiqr-in-ssp.md)
 
 ## User manuals
-- [tiqr user manual (English)](tiqr_manual_v1.0.pdf)
+- [tiqr user manual (English)](./tiqr_manual_v1.0.pdf)
 

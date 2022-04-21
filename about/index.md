@@ -4,17 +4,17 @@ The ideas behind tiqr were born one Friday afternoon in September 2010. A protot
 
 tiqr was invented at SURFnet and was built with help from Egeniq and Stroomt, you can find some more information about these organisations below.
 
-![SURF](./img/surf.png)
+![SURF](/img/surf.png)
 
 In SURF, education and research institutions work together on ICT facilities and innovation in order to make full use of the opportunities offered by digitisation. In this way, together we can make better and more flexible education and research possible.
 
-![Egeniq](./img/egeniq.png)
+![Egeniq](/img/egeniq.png)
 
 Egeniq is a young company specialising in mobile development. They build apps for iPhone, iPad, Android and other mobile platforms. But they can do much more: Egeniq believes in the portability of the Internet, accessed whenever you need it, wherever you are, from any device. Egeniq has a passion for technology and loves to find new and efficient ways to employ existing technologies and to make tomorrow’s technology available in solutions today.
 
 Egeniq developed the iPhone and Android versions of tiqr as well as the server-side software.
 
-![Stroomt](./img/stroomt.png)
+![Stroomt](/img/stroomt.png)
 
 Stroomt delivers the right information to the right people, at the right time and in the right way. They focus on making information accessible, findable and all this in a user-friendly way. Stroomt specialises in optimising the User Experience of applications and worked on the interaction design of tiqr.
 

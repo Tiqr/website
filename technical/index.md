@@ -9,7 +9,7 @@ We use industry standard open cryptography in tiqr. All your identities are secu
 ## Data flow
 The diagram below shows the data flow for a normal, successful authentication using tiqr:
 
-![How](./img/tiqr-how-does-it-work.png)
+![How](/img/tiqr-how-does-it-work.png)
 
 The diagram shows the following steps:
 

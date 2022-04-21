@@ -1,9 +1,9 @@
 # Download
 
 ## Mobile clients
-[![iOS](./img/ios.png)](https://apps.apple.com/us/app/tiqr/id430838214?ls=1)
+[![iOS](/img/ios.png)](https://apps.apple.com/us/app/tiqr/id430838214?ls=1)
 
-[![Android](./img/android.png)](https://play.google.com/store/apps/details?id=org.tiqr.authenticator&hl=en)
+[![Android](/img/android.png)](https://play.google.com/store/apps/details?id=org.tiqr.authenticator&hl=en)
 
 ## Server software
 
