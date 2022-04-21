@@ -8,7 +8,7 @@ Tiqr allows you to design and implement your own enrollment scheme. For tiqr all
 
 The following diagram explains the enrollment process:
 
-![enrollment-integration-guide.png](./img/enrollment-integration-guide.png)
+![enrollment-integration-guide.png](/img/enrollment-integration-guide.png)
 
 Similar to the login integration, we are dealing with a number of ‘entrypoints’ here that you should implement. They form the glue between the tiqr library and the user’s browser and phone. Let’s look at each of them.
 

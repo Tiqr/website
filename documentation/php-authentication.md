@@ -8,7 +8,7 @@ Tiqr is a library that is intended to be integrated into applications. The libra
 
 The following diagram explains the complete integration. We’ll go through each of the integration points to help you understand what goes on where.
 
-![login-integration-guide.png](./img/login-integration-guide.png)
+![login-integration-guide.png](/img/login-integration-guide.png)
 
 There are 5 ‘entrypoints’, the elements in the diagram with a .php extension. (You may choose to use a single php file or for example a framework MVC setup to accomplish the same, but for the sake of clarity we’re going to assume separate files in this guide).
 
