@@ -19,3 +19,7 @@ The diagram shows the following steps:
 4. The user’s identity together with the response to the challenge encoded in the QR tag is sent to the server using the phone’s Internet connection
 5. The server validates the response and authorises login
 6. The browser reloads the page and the user is logged in
+
+## App communication
+
+The communication between the app and the server [is described here](./protocol/)
