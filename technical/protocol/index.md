@@ -34,6 +34,7 @@ The app will fetch the metadata and start enrolling the new user
 }
 
 ```
+The app wil preform the enrollment, and will send the results to the `enrollmentUrl` using a `FORM POST`
 
 ### POST /finish_enrollment FORM DATA
 ```
@@ -43,6 +44,8 @@ notificationAddress=1234567890
 notificationType=GCM
 operation=register
 ```
+
+If the enrollment information processed corectly, the tiqr-server will return a `HTTP 200` message containing the string `OK`.
 
 ## Authentication
 
