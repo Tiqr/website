@@ -69,3 +69,5 @@ operation=login
 notificationType: APNS | GCM
 notificationAddress: 123455667890
 ```
+
+If the authentication is processed corectly, the tiqr-server will return a `HTTP 200` message containing the string `OK`.
