@@ -45,7 +45,7 @@ The tiqr client makes a HTTP GET request to the tiqr server. When the metadata U
 - **service/enrollmentUrl**: The url where the client POSTs the secret. This URL must be uniqe and must be kept secret between the client and the server for the duration of the enrollemnt. This enrollment_key and the enrollment_secret must be different.
 
 - **identity/identifier**: The identitfier of the user account. e.g. the login name, account name of the user at the server
-- **identity/identifier**: The name of the user or some other description of the account.
+- **identity/displayName**: The name of the user or some other description of the account.
 ```
 {
     "service":{
@@ -107,7 +107,7 @@ The server sends:
 - **identifier**: This is the **service/identifier** that the server sent in the metadata during enrollment
 - **session_key**: The OCRA SessionInformation (S) A secure pseudo random key that identifies this authentication
 - **challenge_question**: The OCRA challenge question (Q) According to the **service/ocraSuite** that the server sent in the metadata during enrollment
-- **server_idenitfier**: Identifier of the service to which the client is authenticating. Implementation defined. Set to **identity/identifier** when unknown
+- **server_identifier**: Identifier of the service to which the client is authenticating. Implementation defined. Set to **identity/identifier** when unknown
 - **version**: The protocol version. Currenly 1 or 2.
 
 There are two formats supported, depending on whether a custom URL scheme or a Universal Link is used.
