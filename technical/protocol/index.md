@@ -39,7 +39,7 @@ The tiqr client makes a HTTP GET request to the tiqr server. When the metadata U
 - **service/displayName**: The friendly name of the tiqr server for display purposes
 - **service/identifier**: A uniqe identifier of for this tiqr server
 - **service/logoUrl**: A URL where the client can get a .png of .jpg image to associate with the account
-- **service/logoUrl**: A URL where the user can get more information about the tiqr server
+- **service/infoUrl**: A URL where the user can get more information about the tiqr server
 - **service/authenticationUrl**: The URL what the authentication response will be POSTed to when the user authenticates to the server
 - **service/ocraSuite**: The OCRA suite to use, used to calculate responses. Not that the protocol currently does not support switching to a different suite.
 - **service/enrollmentUrl**: The url where the client POSTs the secret. This URL must be uniqe and must be kept secret between the client and the server for the duration of the enrollemnt. This enrollment_key and the enrollment_secret must be different.
