@@ -15,7 +15,7 @@ Internet access is used only for retrieving tiqr metadata containing account par
 ## Piggy Bank Relying party
 For the “Piggy Bank” demo relying party (demo.tiqr.org), the user is asked to register a user identifier and a display name of his or her choosing. They can both be random but the user identifier must be unique. These account parameters are communicated over HTTPS (protected by TLS 1.2) and stored on the server’s file system.
 
-## What about F-Droid
+## What about F-Droid?
 We occasionally receive inquiries about making Tiqr available on F-Droid. However, this endeavor would entail a substantial amount of additional work for us. It involves not only the initial development efforts to adapt Tiqr for the F-Droid ecosystem, such as replacing libraries for functionalities like push notifications and QR code scanning, but also an ongoing commitment to maintain the Tiqr app within the F-Droid ecosystem. This includes tasks such as managing the build system, conducting thorough testing, and overseeing the release process.
 
 While we appreciate the fully open-source nature of F-Droid, regrettably, we currently lack the necessary resources to commit to maintaining Tiqr's presence on F-Droid.
