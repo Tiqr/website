@@ -1,4 +1,4 @@
-# Tiqr Protocoll
+# Tiqr Protocol
 
 The tiqr-app and the tiqr server (website) need to communicate information during enrollment and authentication. 
 ## Enroll
@@ -18,7 +18,7 @@ Example _metadata_url_: `https://tiqr.example.org/get_metadata/?enrollment_key=f
 ### enrollment_url
 The _erollemnt_url_ uses a custom URL scheme or universal link to start the enrollment process of a new user in the Tiqr client and to transfer the _metadata_url_ to the client. The _enrollment_url_ is transferred to the Tiqr client by the user scanning a QR code of by a clickable link.  
 
-There are two formats defined for the enrollemt URL
+There are two formats defined for the enrollment URL
 
 #### Custom URL Scheme
  
@@ -42,7 +42,7 @@ The tiqr client makes a HTTP GET request to the tiqr server. When the metadata U
 - **service/infoUrl**: A URL where the user can get more information about the tiqr server
 - **service/authenticationUrl**: The URL what the authentication response will be POSTed to when the user authenticates to the server
 - **service/ocraSuite**: The OCRA suite to use, used to calculate responses. Not that the protocol currently does not support switching to a different suite.
-- **service/enrollmentUrl**: The url where the client POSTs the secret. This URL must be uniqe and must be kept secret between the client and the server for the duration of the enrollemnt. This enrollment_key and the enrollment_secret must be different.
+- **service/enrollmentUrl**: The url where the client POSTs the secret. This URL must be uniqe and must be kept secret between the client and the server for the duration of the enrollment. This enrollment_key and the enrollment_secret must be different.
 
 - **identity/identifier**: The identitfier of the user account. e.g. the login name, account name of the user at the server
 - **identity/displayName**: The name of the user or some other description of the account.
@@ -68,7 +68,7 @@ The app wil preform the enrollment, and will send the results to the `enrollment
 
 With this information the tiqr client can create a user account in the client and generate the OCRA secret. This is a shared secret between the client and the server.
 
-### Finish Enrollemnt
+### Finish Enrollment
 
 The tiqr client POSTs the FORM DATA to the server.
 
@@ -145,8 +145,8 @@ It sends a POST with FORM DATA back using with:
 - **response**: the OCRA response that it calculated
 - **language**: the preffered language of the user
 - **operation**: always set to `login`
-- **notificationType**: Optional. See enrollemnt.
-- **notificationAddress**: Optional. See enrollemnt.
+- **notificationType**: Optional. See enrollment.
+- **notificationAddress**: Optional. See enrollment.
 
 Example:
 ```
