@@ -13,7 +13,9 @@ Camera access is used only for scanning QR codes during enrollment of new tiqr a
 Internet access is used only for retrieving tiqr metadata containing account parameters and during authentication for communicating authentication responses to the server.
 
 ## Piggy Bank Relying party
-For the “Piggy Bank” demo relying party (demo.tiqr.org), the user is asked to register a user identifier and a display name of his or her choosing. They can both be random but the user identifier must be unique. These account parameters are communicated over HTTPS (protected by TLS 1.2) and stored on the server’s file system.
+For the “Piggy Bank” demo relying party (demo.tiqr.org), the user is asked to register a user identifier and a display name of their choosing. They can both be random but the user identifier must be unique. These account parameters are communicated over HTTPS (protected by TLS 1.2) and stored on the server’s file system.
+
+If you want your account in “Piggy Bank” demo to be deleted, contact tiqr@tiqr.org and request deletiton of the account. Include the complete account information as displayed in the tiqr app. I.e. provide both the tiqr user id and the display name, as shown on the identities page in the Tiqr app. We cannot process incomplete requests. We cannot delete accounts that you have created at other relying parties, contact the relying party instead.
 
 ## What about F-Droid?
 We occasionally receive inquiries about making Tiqr available on F-Droid. However, this endeavor would entail a substantial amount of additional work for us. It involves not only the initial development efforts to adapt Tiqr for the F-Droid ecosystem, such as replacing libraries for functionalities like push notifications and QR code scanning, but also an ongoing commitment to maintain the Tiqr app within the F-Droid ecosystem. This includes tasks such as managing the build system, conducting thorough testing, and overseeing the release process.
