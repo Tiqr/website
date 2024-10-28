@@ -19,4 +19,4 @@ Egeniq developed the iPhone and Android versions of tiqr as well as the server-s
 Stroomt delivers the right information to the right people, at the right time and in the right way. They focus on making information accessible, findable and all this in a user-friendly way. Stroomt specialises in optimising the User Experience of applications and worked on the interaction design of tiqr.
 
 ## Contact
-If you have any questions or suggestions, please open an issue at the relevant github repo, or [send us an email](mailto:tiqr@surfnet.nl).
+If you have any questions or suggestions, please open an issue at the relevant github repo, or [send us an email](mailto:tiqr@surf.nl).
