@@ -109,28 +109,29 @@ The server sends:
 - **challenge_question**: The OCRA challenge question (Q) According to the **service/ocraSuite** that the server sent in the metadata during enrollment
 - **server_identifier**: Identifier of the service to which the client is authenticating. Implementation defined. Set to **identity/identifier** when unknown
 - **version**: The protocol version. Currenly 1 or 2.
+- **service_displayname**: (optional) A String describing the service the user is authenticating for, e.g. "Piggy Bank"
 
 There are two formats supported, depending on whether a custom URL scheme or a Universal Link is used.
 
 #### Custom URL Scheme
 
-With _userid_: _scheme_**://**_userid_**@**_identifier_**/**_session_key_**/**_challenge_question_**/**_server_identifier_**/**_version_  
+With _userid_: _scheme_**://**_userid_**@**_identifier_**/**_session_key_**/**_challenge_question_**/**_server_identifier_**/**_version_**/**_service_displayname_  
 
-Example: `tiqrauth://example-user@tiqr.example.org/0da1c51c3c3be54441527d4e5bde3710/747d558f3d/tiqr.example.org/2`  
+Example: `tiqrauth://example-user@tiqr.example.org/0da1c51c3c3be54441527d4e5bde3710/747d558f3d/tiqr.example.org/2/Piggy%20Bank`  
 
-Without _userid_: _scheme_**://**_identifier_**/**_session_key_**/**_challenge_question_**/**_server_identifier_**/**_version_  
+Without _userid_: _scheme_**://**_identifier_**/**_session_key_**/**_challenge_question_**/**_server_identifier_**/**_version_**/**_service_displayname_  
 
-Example: `tiqrauth://tiqr.example.org/0da1c51c3c3be54441527d4e5bde3710/747d558f3d/tiqr.example.org/2`  
+Example: `tiqrauth://tiqr.example.org/0da1c51c3c3be54441527d4e5bde3710/747d558f3d/tiqr.example.org/2/Piggy%20Bank`  
 
 #### Universal Link
 
-With _userid_: _unversal Link_**?u=**_userid_**&i=**_identifier_**&s=**_session_key_**&q=**_challenge_question_**&v=**_version_  
+With _userid_: _unversal Link_**?u=**_userid_**&i=**_identifier_**&s=**_session_key_**&q=**_challenge_question_**&v=**_version_**&d=**_service_displayname_**  
 
-Example: `https://tiqr.example.org/tiqrauth/?u=example-user&i=tiqr.example.org&s=0da1c51c3c3be54441527d4e5bde3710&q=747d558f3d&v=2`  
+Example: `https://tiqr.example.org/tiqrauth/?u=example-user&i=tiqr.example.org&s=0da1c51c3c3be54441527d4e5bde3710&q=747d558f3d&v=2&d=Piggy%20Bank`  
 
-With _userid_: _unversal Link_**?i=**_identifier_**&s=**_session_key_**&q=**_challenge_question_**&v=**_version_  
+With _userid_: _unversal Link_**?i=**_identifier_**&s=**_session_key_**&q=**_challenge_question_**&v=**_version_**&d=**_service_displayname_**  
 
-Example: `https://tiqr.example.org/tiqrauth/?i=tiqr.example.org&s=0da1c51c3c3be54441527d4e5bde3710&q=747d558f3d&v=2`  
+Example: `https://tiqr.example.org/tiqrauth/?i=tiqr.example.org&s=0da1c51c3c3be54441527d4e5bde3710&q=747d558f3d&v=2&d=Piggy%20Bank`  
 
 Note that all URL paramater values must be URL encoded and that this format does not support specifying a _server_identifier_
 
