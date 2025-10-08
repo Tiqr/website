@@ -24,7 +24,7 @@ There are two formats defined for the enrollment URL
  
 _scheme_://_metadata URL_  
 
-E.g.: `tiqrenroll://https://tiqr.example.org/get_metadata/?enrollment_key=f835ae8f915433c11c9cded94280e3a7` where `tiqrenroll` is the cutorm url scheme that rigstered by the tiqr client.
+E.g.: `tiqrenroll://https://tiqr.example.org/get_metadata/?enrollment_key=f835ae8f915433c11c9cded94280e3a7` where `tiqrenroll` is the custom url scheme that rigstered by the tiqr client.
 
 #### Universal Link ####
 
