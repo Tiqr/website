@@ -24,6 +24,3 @@ You now launch the tiqr App on your smart phone and follow the simple steps show
 2. Confirm that you want to log in
 3. Enter your PIN code
 4. And you’re logged in!
-
-### Want to try it out yourself?
-Surf to [our demo page](./demo.md) and try tiqr live!
