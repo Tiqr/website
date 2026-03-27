@@ -4,12 +4,10 @@ Welcome to tiqr, the open source authentication solution for smart phones and we
 And even better: tiqr is free! All source code can be downloaded from this site as well and is released under a BSD-style licence.
 
 Learn more about tiqr by watching our short promo video:
-<video width="640" height="360" controls="controls">
-<source src="./TIQR-EDIT-UK-FINAL.mov" type="video/quicktime">
-<source src="./TIQR-EDIT-UK-FINAL.ogv" type="video/ogg">
+<video width="640" height="360" controls preload="metadata">
+  <source src="./TIQR-EDIT-UK-FINAL.webm" type="video/webm">
+  <source src="./TIQR-EDIT-UK-FINAL.mp4" type="video/mp4">
 </video>
-
-
 
 ## So how does it work?
 Logging in with tiqr is a simple process. When you land on the login page of the web application you’re trying to access your browser will show you a QR tag:
